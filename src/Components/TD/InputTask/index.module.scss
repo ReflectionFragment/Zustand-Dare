@@ -1,0 +1,19 @@
+
+.inputTask {
+  display: flex;
+  margin-top:5px;
+  //justify-content: center;
+  align-items: center;
+
+  &Label {
+    flex:1
+  }
+  &Edit {
+    height: 100%;
+    border:none;
+  }
+  &Remove{
+    height: 100%;
+    border:none;
+  }
+}
